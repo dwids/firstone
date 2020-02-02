@@ -1,0 +1,12 @@
+myList = ["lamb", "vegetables","potatoes"]
+print(myList)
+print("- Information about myList -")
+print("")
+print("Python object type:",type(myList))
+print("Length(nbr of items):",len(myList))
+print("Longest/maximum item:", max(myList))
+print("Sorted:",sorted(myList))
+print("- List testing")
+print("Does it contain 'lamb'?:",'lamb' in myList)
+print("Does it contain 'turnip'?:",'turnip' in myList)
+print("Does it NOT contain 'carrot'?:",'carrot' not in myList) 
